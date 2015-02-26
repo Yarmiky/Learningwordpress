@@ -30,7 +30,7 @@ if(have_posts()):
 
 			</p>
 	
-	<?php the_content();?>
+	<?php the_content('Continue reading &raquo;');?>
    </article>
    <?php endwhile;
 
